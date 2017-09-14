@@ -1,0 +1,61 @@
+### INITIAL SETUP
+
+1.  Wire frame our project.
+2.  Add Bootstra via CDN for styling later
+
+### BLOG POSTS
+
+3.  Generate model for blog posts with attributes of title, author, and blog_entry
+4.  Generate controller with views of index, show, new & edit
+5.  edit our routes to make sure we have access to all the views, set our index page to homepage
+6.   Create form partial to refactor new and edit views
+
+### COMMENTS
+
+7.  Generate model for Comments with attributes of: author, comment_entry, & blog_post_id. (foreign key)
+8.  Generate Controller to handle comments with view of edits
+9.  Make sure our routes include the edit comment view
+10.  Create a form partial for a new comment and a second comment partial that we can display in the show page of the blog post.
+
+### MODELS
+
+11.  Create an association between blog posts and comments to allow blog posts to have many comments.
+12.  Write out validations for a blog post.  Make sure all attributes are on a form.  Make title unique, limit length of title to 140 characters.
+13.  Write out validations for comments to make sure all attributes are required when creating a new comment.
+
+### Controllers
+
+14. USE OUR CRUD VERBS (create read update destroy) to create methods for "Create", "Update", "Destroy" for blog posts and comments.
+15. Allow access to certain variables in the correct view.
+16. Create a method in the controller that sets a blog post when we edit, show, update, and destroy.
+17. Create a method that accepts the correct parameters.  
+18. Same for comments.
+19. Give access to our comments in our blog post show page.
+
+### Views
+
+20.  Layout our index page with all blog posts
+21.  Layout our forms for creating and editing blog posts.
+22.  Layout each individuul blog post, include comments and a new comment form.
+23.  Layout our edit comment form.
+
+### Devise Gem (used for authentication)
+
+24.  Implement the setup
+25.  Generate a user model
+26.  Set up any additional parameters that we want.
+27.  Create a login/signup view.
+28.  Create user profile view.
+29.  Create a users posts page (so we can have different users on the blog)
+30.  Allow a user to only edit own contents.
+
+### STYLING.
+
+31.  Make me pretty.
+
+
+
+
+
+
+
